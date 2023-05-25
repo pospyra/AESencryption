@@ -11,7 +11,7 @@ namespace WebApi.Controllers
     public class ResourcesController : ControllerBase
     {
         private ResourceService _resourceService;
-
+          
         public ResourcesController()
         {
             _resourceService = new ResourceService();
